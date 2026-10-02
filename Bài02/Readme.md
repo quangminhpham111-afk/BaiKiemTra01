@@ -1,2 +1,2 @@
-![Uploading image.png…]()
+C:\Users\Min min\Downloads\Hình ảnh 1.jpg
 
