@@ -1,6 +1,32 @@
---- TOOL: Kiém tra Validation Nam sén xuét --PASS: Ném ngoai 18 ArgumentException("Nam sin xudt kndng hop 1é!") --- TCQ2: Tinh gid lan bénh @ té --Gia lan banh: 1,420,000,008 VNB | PASS --- T0@3: Tinh gid lan banh Xe may --Gia lan banh: 51,000,000 VID | PASS --- TC04: Kiém tra De hinh List<PhuongTien> --sees DANH SACH PHUONG TIEN ===== Na:=>OT@@1.Gia lan| Hang:banh: Toyota1,426,000,080| Nam SX:VND2022 | Gid gic: 1,008,000,000 NO | $6 cho:: 5 | Dung tich ding co: 2 Ma: X¥@01 | Hang: Honda { Nam SX: 2023 | Gid gic: 54,000,000 WO | Dung tich xylanh: 150 cc => Gia lan banh: 51,000,000 VNB 
+===== TC01: VALIDATION NĂM SẢN XUẤT =====
+TC01 PASSED: Năm sản xuất không hợp lệ!
 
-++ TCD: kim tra Ba ning ListePhuongTien> --sessz ANH SACH PHONG TIEN ===== is=)OTOLGla Jan| Hing:banh: Toyota1,420,000,| Nan St: 2022 | Gié gc: 1,020,000,000 MD | 95 cs: 5 | Qung tich dng cos 2 Nis WOOL | Hangs Honda lin 00SX: VN2023 | Gia gles 50,000,000 \NO | Oung tich xylanh: 158 cc => Gla Jan bénhs 51,000,008 
+===== TC02: GIÁ LĂN BÁNH Ô TÔ =====
+Giá gốc: 1,000,000,000 VNĐ
+Giá lăn bánh: 1,420,000,000 VNĐ
+TC02 PASSED
 
---- TOS: Tim gid Lin banh Max --F Phuong tién eld lin banh cao nhét: Mi: OTAGL | Hang: Toyota | Nam SX: 2022 | id etc: 1,000,000,000 VND | $6 chds 5 | Dung tich dng co: 2 Gia Ln bénns 1,220,004,000 AD | PASS --- Tha Kin theo tén héng: "honda" --fs W001 | Hangs Honda | Nin Si: 2803 | GHd pics $0,008,000 WND | Dung tich sy/lanh: 150 cc 
+===== TC03: GIÁ LĂN BÁNH XE MÁY =====
+Giá gốc: 50,000,000 VNĐ
+Giá lăn bánh: 51,000,000 VNĐ
+TC03 PASSED
 
+===== TC04: ĐA HÌNH =====
+========== DANH SÁCH PHƯƠNG TIỆN ==========
+Mã PT: OT001, Hãng: Toyota, Năm SX: 2024, Giá gốc: 1,000,000,000 VNĐ, Số chỗ: 5, Dung tích động cơ: 2000 cc
+Giá lăn bánh: 1,420,000,000 VNĐ
+
+Mã PT: XM001, Hãng: Honda, Năm SX: 2024, Giá gốc: 50,000,000 VNĐ, Dung tích xy-lanh: 150 cc
+Giá lăn bánh: 51,000,000 VNĐ
+-----------------------------------
+TC04 PASSED
+
+===== TC05: TÌM GIÁ LĂN BÁNH MAX =====
+Phương tiện có giá lăn bánh cao nhất:
+Mã PT: OT001, Hãng: Toyota, Năm SX: 2024, Giá gốc: 1,000,000,000 VNĐ, Số chỗ: 5, Dung tích động cơ: 2000 cc
+Giá lăn bánh: 1,420,000,000 VNĐ
+TC05 PASSED
+
+===== TEST SEARCH BY NAME =====
+Mã PT: OT001, Hãng: Toyota, Năm SX: 2024, Giá gốc: 1,000,000,000 VNĐ, Số chỗ: 5, Dung tích động cơ: 2000 cc
+```[cite: 1]
