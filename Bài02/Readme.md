@@ -1,0 +1,6 @@
+--- TOOL: Kiém tra Validation Nam sén xuét --PASS: Ném ngoai 18 ArgumentException("Nam sin xudt kndng hop 1é!") --- TCQ2: Tinh gid lan bénh @ té --Gia lan banh: 1,420,000,008 VNB | PASS --- T0@3: Tinh gid lan banh Xe may --Gia lan banh: 51,000,000 VID | PASS --- TC04: Kiém tra De hinh List<PhuongTien> --sees DANH SACH PHUONG TIEN ===== Na:=>OT@@1.Gia lan| Hang:banh: Toyota1,426,000,080| Nam SX:VND2022 | Gid gic: 1,008,000,000 NO | $6 cho:: 5 | Dung tich ding co: 2 Ma: X¥@01 | Hang: Honda { Nam SX: 2023 | Gid gic: 54,000,000 WO | Dung tich xylanh: 150 cc => Gia lan banh: 51,000,000 VNB 
+
+++ TCD: kim tra Ba ning ListePhuongTien> --sessz ANH SACH PHONG TIEN ===== is=)OTOLGla Jan| Hing:banh: Toyota1,420,000,| Nan St: 2022 | Gié gc: 1,020,000,000 MD | 95 cs: 5 | Qung tich dng cos 2 Nis WOOL | Hangs Honda lin 00SX: VN2023 | Gia gles 50,000,000 \NO | Oung tich xylanh: 158 cc => Gla Jan bénhs 51,000,008 
+
+--- TOS: Tim gid Lin banh Max --F Phuong tién eld lin banh cao nhét: Mi: OTAGL | Hang: Toyota | Nam SX: 2022 | id etc: 1,000,000,000 VND | $6 chds 5 | Dung tich dng co: 2 Gia Ln bénns 1,220,004,000 AD | PASS --- Tha Kin theo tén héng: "honda" --fs W001 | Hangs Honda | Nin Si: 2803 | GHd pics $0,008,000 WND | Dung tich sy/lanh: 150 cc 
+
